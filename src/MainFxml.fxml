@@ -7,7 +7,7 @@
 
 <AnchorPane fx:id="text2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="655.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="301.0" layoutY="373.0" mnemonicParsing="false" text="Click" textFill="#0008eb">
+      <Button layoutX="301.0" layoutY="369.0" mnemonicParsing="false" text="Click" textFill="#0008eb">
          <font>
             <Font size="17.0" />
          </font>

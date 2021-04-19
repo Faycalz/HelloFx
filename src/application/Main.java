@@ -26,11 +26,11 @@ public class Main extends Application {
 		Parent root = FXMLLoader.load(getClass().getResource("/MainFxml.fxml"));
 		Scene scene = new Scene(root);
 		//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm()); if we have one scene
-		String css = this.getClass().getResource("style.css").toExternalForm();
+		String css = this.getClass().getResource("application.css").toExternalForm();
 		scene.getStylesheets().add(css);
 		Image icon = new Image("dd.png");
 		stage.getIcons().add(icon);
-		stage.setTitle("AB");
+		stage.setTitle("HelloFxx");
 		
 		
 		

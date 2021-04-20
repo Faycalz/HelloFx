@@ -14,5 +14,6 @@
       </Button>
       <Label fx:id="text1" layoutY="144.0" prefHeight="18.0" prefWidth="655.0" text="Hello World !" />
       <Label fx:id="text2" layoutX="-1.0" layoutY="289.0" prefHeight="18.0" prefWidth="655.0" text="This is css styling" />
+      <Button fx:id="btn" layoutX="466.0" layoutY="372.0" mnemonicParsing="false" />
    </children>
 </AnchorPane>

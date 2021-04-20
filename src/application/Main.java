@@ -30,7 +30,7 @@ public class Main extends Application {
 		scene.getStylesheets().add(css);
 		Image icon = new Image("dd.png");
 		stage.getIcons().add(icon);
-		stage.setTitle("HelloFxx");
+		stage.setTitle("Ghozlane");
 		
 		
 		

@@ -16,14 +16,11 @@ import javafx.scene.text.Text;
 public class Main extends Application {
 	
 	
-	public static void main(String[] args) {
-		launch(args);
-	}
-
+	
 	@Override
 	public void start(Stage stage) throws Exception {
 		// TODO Auto-generated method stub
-		Parent root = FXMLLoader.load(getClass().getResource("/MainFxml.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("MainFxml.fxml"));
 		Scene scene = new Scene(root);
 		//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm()); if we have one scene
 		String css = this.getClass().getResource("application.css").toExternalForm();
@@ -41,4 +38,8 @@ public class Main extends Application {
 		stage.setScene(scene);
 		stage.show();
 	}
+	public static void main(String[] args) {
+		launch(args);
+	}
+
 }

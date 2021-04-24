@@ -20,14 +20,14 @@ public class Main extends Application {
 	@Override
 	public void start(Stage stage) throws Exception {
 		// TODO Auto-generated method stub
-		Parent root = FXMLLoader.load(getClass().getResource("MainFxml.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("/MainFxml.fxml"));
 		Scene scene = new Scene(root);
 		//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm()); if we have one scene
 		String css = this.getClass().getResource("application.css").toExternalForm();
 		scene.getStylesheets().add(css);
 		Image icon = new Image("dd.png");
 		stage.getIcons().add(icon);
-		stage.setTitle("Ghozlane");
+		stage.setTitle("Faycal");
 		
 		
 		
